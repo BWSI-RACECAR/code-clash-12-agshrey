@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "python3 addone.py",
+      "input": "1 2 3",
+      "output": "[1, 2, 4]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "python3 addone.py",
+      "input": "0",
+      "output": "[1]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "python3 addone.py",
+      "input": "9 9",
+      "output": "[1, 0, 0]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "python3 addone.py",
+      "input": "9 9 9",
+      "output": "[1, 0, 0, 0]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "python3 addone.py",
+      "input": "9 9 9 9 9 9 9 9",
+      "output": "[1, 0, 0, 0, 0, 0, 0, 0, 0]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    }
+  ]
+}
